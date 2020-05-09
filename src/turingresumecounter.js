@@ -7,5 +7,5 @@ xhttp.onreadystatechange = function() {
        document.getElementById("visitors").innerHTML = xhttp.responseText;
     }
 };
-xhttp.open("POST", "https://bwc2pl2iz5.execute-api.us-east-1.amazonaws.com/Prod/counter", true);
+xhttp.open("GET", "https://bwc2pl2iz5.execute-api.us-east-1.amazonaws.com/Prod/counter", true);
 xhttp.send();
