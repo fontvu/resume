@@ -7,9 +7,6 @@ Resources:
         - 
           AttributeName: "Site"
           AttributeType: "N"
-        - 
-          AttributeName: "Visitors"
-          AttributeType: "N"
       KeySchema: 
         - 
           AttributeName: "Site"
