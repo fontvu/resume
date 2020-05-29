@@ -10,7 +10,12 @@ def handler(event, context):
     
     visits = int(response["Item"]["Visits"]["N"]) + 1
 
+    visits = ['baar','baz']
+
+    visits.l
+
     #Store Visits
     dynamodb.put_item(TableName='turingresumecounter', Item={'Site':{'N': '0'},'Visits':{'N': str(visits)}})
     
     return visits
+
