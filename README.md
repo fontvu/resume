@@ -1,6 +1,1 @@
-<<<<<<< HEAD
-# resume
-my resume
-=======
-# AlanTuringResume
->>>>>>> Initial commit
+My resume files
